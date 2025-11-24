@@ -60,7 +60,20 @@ try {
     logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
 }
 
+// --- YE CODE FILE KE END MEIN PASTE KAREIN ---
 
+subprojects {
+    afterEvaluate { project ->
+        if (project.plugins.hasPlugin("com.android.library") || project.plugins.hasPlugin("com.android.application")) {
+            android {
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_17
+                    targetCompatibility JavaVersion.VERSION_17
+                }
+            }
+        }
+    }
+}
 // ### 🚀 Next Steps (Final)
 
 // File save karne ke baad, wahi 3 commands terminal mein chalayein taaki ye update GitHub aur Ionic tak pahunch jaye:
