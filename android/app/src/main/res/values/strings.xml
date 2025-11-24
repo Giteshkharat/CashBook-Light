@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cashbook-light</string>
+    <string name="title_activity_main">cashbook-light</string>
+    <string name="package_name">com.example.cashbook</string>
+    <string name="custom_url_scheme">com.example.cashbook</string>
+</resources>

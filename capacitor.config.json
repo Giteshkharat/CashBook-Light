@@ -1,0 +1,7 @@
+
+{
+  "appId": "com.cashbook.app",
+  "appName": "CashBook",
+  "webDir": "dist",  
+  "bundledWebRuntime": false
+}
